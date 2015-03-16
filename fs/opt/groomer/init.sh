@@ -24,6 +24,5 @@ trap clean EXIT TERM INT
 mkdir /tmp/libreoffice
 chown -R kitten:kitten /tmp/libreoffice
 
-su ${USERNAME} -c ./groomer.sh
 
 
